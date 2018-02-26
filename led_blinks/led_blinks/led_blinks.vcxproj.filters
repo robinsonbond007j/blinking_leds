@@ -17,5 +17,9 @@
   <ItemGroup>
     <None Include="led_blinks.ino" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="__vm\.led_blinks.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
