@@ -7,8 +7,8 @@
 int green = 2;
 int greenState = LOW;
 unsigned long previousMillis = 0;
-long onTime = 500;
-long offTime = 500;
+long onTime = 250;
+long offTime = 250;
 
 // the setup function runs once when you press reset or power the board
 void setup() {
